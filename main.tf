@@ -16,6 +16,8 @@ terraform {
 }
 
 provider "snowflake" {
+	role  = "SYSADMIN"
+	region = "eu-west-2.aws"
 }
 
 
